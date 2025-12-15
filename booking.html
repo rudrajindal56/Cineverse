@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CineVerse | Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h1 class="logo">CineVerse</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="reviews.html">Reviews</a>
+    </nav>
+</header>
+
+<section class="section">
+    <h3 class="section-title">Book Movie Ticket</h3>
+
+    <form class="booking-form" action="success.html">
+
+        <label>Movie Name</label>
+        <input type="text" placeholder="Enter movie name" required>
+
+        <label>Your Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Number of Tickets</label>
+        <input type="number" min="1" required>
+
+        <label>Show Time</label>
+        <select required>
+            <option value="">Select time</option>
+            <option>10:00 AM</option>
+            <option>1:00 PM</option>
+            <option>4:00 PM</option>
+            <option>7:00 PM</option>
+        </select>
+
+        <button type="submit">Confirm Booking</button>
+    </form>
+</section>
+
+<footer class="footer">
+    <p>Booking system is static and created for academic purpose.</p>
+</footer>
+
+</body>
+</html>
